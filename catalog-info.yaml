@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-world
+  description: A simple hello world service
+spec:
+  type: service
+  lifecycle: production
+  owner: team-xyz
